@@ -34,3 +34,18 @@ const luasPersegiPanjang= (panjang:number,lebar:number) =>{
     return panjang*lebar
 }
 
+const kecepatan=(jarak:number,waktu:number)=>{
+    return bagi(jarak,waktu)
+}
+
+const jarak=(kecepatan:number,waktu:number)=>{
+    return kali(kecepatan,waktu)
+}
+
+const waktu=(jarak:number,kecepatan:number)=>{
+    return bagi(jarak,kecepatan)
+}
+
+
+
+
