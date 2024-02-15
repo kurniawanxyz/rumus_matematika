@@ -42,10 +42,19 @@ const jarak=(kecepatan:number,waktu:number)=>{
     return kali(kecepatan,waktu)
 }
 
-const waktu=(jarak:number,kecepatan:number)=>{
+const waktuKecepatan=(jarak:number,kecepatan:number)=>{
     return bagi(jarak,kecepatan)
 }
 
+const debit=(volume:number,waktu:number)=>{
+    return bagi(volume,waktu)
+}
 
+const volume=(debit:number,waktu:number)=>{
+    return kali(debit,waktu)
+}
 
+const waktuDebit=(debit:number,kecepatan:number)=>{
+    return bagi(debit,kecepatan)
+}
 
