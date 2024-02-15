@@ -17,3 +17,12 @@ const kurang=(...angka:number[])=>{
 const bagi=(angka1:number,angka2:number)=>{
     return angka1/angka2
 }
+
+const kali=(angka1:number,angka2:number)=>{
+    return angka1*angka2
+}
+
+const pangkat=(angka:number,pangkat:number)=>{
+    return angka**pangkat
+}
+
