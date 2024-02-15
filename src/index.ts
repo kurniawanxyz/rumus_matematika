@@ -58,3 +58,14 @@ const waktuDebit=(debit:number,kecepatan:number)=>{
     return bagi(debit,kecepatan)
 }
 
+const skala=(jarakPadaPeta:number,jarakSebenarnya:number)=>{
+    return `jarakPadaPeta : jarakSebenarnya`
+}
+
+const jarakSebenarnya=(jarakPadaPeta:number,jarakSebenarnya:number)=>{
+    return  jarakPadaPeta/(jarakPadaPeta/jarakSebenarnya)
+}
+
+const jarakPadaPeta=(jarakPadaPeta:number,jarakSebenarnya:number)=>{
+    return  (jarakPadaPeta/jarakSebenarnya)*jarakSebenarnya
+}
