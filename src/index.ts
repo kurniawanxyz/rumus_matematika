@@ -26,7 +26,11 @@ const pangkat=(angka:number,pangkat:number)=>{
     return angka**pangkat
 }
 
-const luasPersegi= (panjang:number,lebar:number) =>{
+const luasPersegi= (sisi:number) =>{
+    return sisi*sisi
+}
+
+const luasPersegiPanjang= (panjang:number,lebar:number) =>{
     return panjang*lebar
 }
 
