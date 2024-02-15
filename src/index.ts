@@ -26,13 +26,6 @@ const pangkat=(angka:number,pangkat:number)=>{
     return angka**pangkat
 }
 
-const luasPersegi= (sisi:number) =>{
-    return sisi*sisi
-}
-
-const luasPersegiPanjang= (panjang:number,lebar:number) =>{
-    return panjang*lebar
-}
 
 const kecepatan=(jarak:number,waktu:number)=>{
     return bagi(jarak,waktu)
@@ -69,3 +62,22 @@ const jarakSebenarnya=(jarakPadaPeta:number,jarakSebenarnya:number)=>{
 const jarakPadaPeta=(jarakPadaPeta:number,jarakSebenarnya:number)=>{
     return  (jarakPadaPeta/jarakSebenarnya)*jarakSebenarnya
 }
+
+// bangun datar
+
+const luasPersegi= (sisi:number) =>{
+    return sisi*sisi
+}
+
+const kelilingPersegi=(sisi:number)=>{
+    return sisi*4;
+}
+
+const luasPersegiPanjang= (panjang:number,lebar:number) =>{
+    return panjang*lebar
+}
+
+const kelilingPersegiPanjang=(panjang:number,lebar:number)=>{
+    return (panjang*2)+(lebar*2)
+}
+
