@@ -78,3 +78,27 @@ export const luasPersegiPanjang= (panjang:number,lebar:number) =>{
 export const kelilingPersegiPanjang=(panjang:number,lebar:number)=>{
     return (panjang*2)+(lebar*2)
 }
+
+export const sin = (derajat: number) => {
+    return Math.sin(derajat * (Math.PI / 180));
+}
+
+export const cos = (derajat: number) => {
+    return Math.cos(derajat * (Math.PI / 180));
+}
+
+export const tan = (derajat: number) => {
+    return Math.tan(derajat * (Math.PI / 180));
+}
+
+export const asin = (nilai: number) => {
+    return Math.asin(nilai) * (180 / Math.PI);
+}
+
+export const acos = (nilai: number) => {
+    return Math.acos(nilai) * (180 / Math.PI);
+}
+
+export const atan = (nilai: number) => {
+    return Math.atan(nilai) * (180 / Math.PI);
+}
