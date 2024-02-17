@@ -1,83 +1,80 @@
-
-
-const mean = (jumlahData:number,banyakData:number):number =>{
+export const mean = (jumlahData:number,banyakData:number):number =>{
     return jumlahData/banyakData
 }
 
-const tambah=(...angka:number[]) => {
+export const tambah=(...angka:number[]) => {
     const result = angka.reduce((prevdata,currentData)=>prevdata+currentData)
     return result
 };
 
-const kurang=(...angka:number[])=>{
+export const kurang=(...angka:number[])=>{
     const result = angka.reduce((prevdata,currentData)=>prevdata-currentData)
     return result
 }
 
-const bagi=(angka1:number,angka2:number)=>{
+export const bagi=(angka1:number,angka2:number)=>{
     return angka1/angka2
 }
 
-const kali=(angka1:number,angka2:number)=>{
+export const kali=(angka1:number,angka2:number)=>{
     return angka1*angka2
 }
 
-const pangkat=(angka:number,pangkat:number)=>{
+export const pangkat=(angka:number,pangkat:number)=>{
     return angka**pangkat
 }
 
 
-const kecepatan=(jarak:number,waktu:number)=>{
+export const kecepatan=(jarak:number,waktu:number)=>{
     return bagi(jarak,waktu)
 }
 
-const jarak=(kecepatan:number,waktu:number)=>{
+export const jarak=(kecepatan:number,waktu:number)=>{
     return kali(kecepatan,waktu)
 }
 
-const waktuKecepatan=(jarak:number,kecepatan:number)=>{
+export const waktuKecepatan=(jarak:number,kecepatan:number)=>{
     return bagi(jarak,kecepatan)
 }
 
-const debit=(volume:number,waktu:number)=>{
+export const debit=(volume:number,waktu:number)=>{
     return bagi(volume,waktu)
 }
 
-const volume=(debit:number,waktu:number)=>{
+export const volume=(debit:number,waktu:number)=>{
     return kali(debit,waktu)
 }
 
-const waktuDebit=(debit:number,kecepatan:number)=>{
+export const waktuDebit=(debit:number,kecepatan:number)=>{
     return bagi(debit,kecepatan)
 }
 
-const skala=(jarakPadaPeta:number,jarakSebenarnya:number)=>{
+export const skala=(jarakPadaPeta:number,jarakSebenarnya:number)=>{
     return `jarakPadaPeta : jarakSebenarnya`
 }
 
-const jarakSebenarnya=(jarakPadaPeta:number,jarakSebenarnya:number)=>{
+export const jarakSebenarnya=(jarakPadaPeta:number,jarakSebenarnya:number)=>{
     return  jarakPadaPeta/(jarakPadaPeta/jarakSebenarnya)
 }
 
-const jarakPadaPeta=(jarakPadaPeta:number,jarakSebenarnya:number)=>{
+export const jarakPadaPeta=(jarakPadaPeta:number,jarakSebenarnya:number)=>{
     return  (jarakPadaPeta/jarakSebenarnya)*jarakSebenarnya
 }
 
 // bangun datar
 
-const luasPersegi= (sisi:number) =>{
+export const luasPersegi= (sisi:number) =>{
     return sisi*sisi
 }
 
-const kelilingPersegi=(sisi:number)=>{
+export const kelilingPersegi=(sisi:number)=>{
     return sisi*4;
 }
 
-const luasPersegiPanjang= (panjang:number,lebar:number) =>{
+export const luasPersegiPanjang= (panjang:number,lebar:number) =>{
     return panjang*lebar
 }
 
-const kelilingPersegiPanjang=(panjang:number,lebar:number)=>{
+export const kelilingPersegiPanjang=(panjang:number,lebar:number)=>{
     return (panjang*2)+(lebar*2)
 }
-
