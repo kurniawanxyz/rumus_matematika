@@ -34,6 +34,30 @@ export class MatematikaDasar {
   kali(angka1: number, angka2: number): number {
     return angka1 * angka2;
   }
+
+    /**
+   * Menghitung pangkat dari sebuah angka
+   */
+    pangkat(angka: number, pangkat: number): number {
+        return Math.pow(angka, pangkat);
+      }
+    
+      /**
+       * Menghitung akar dari sebuah angka
+       */
+      akar(angka: number): number {
+        return Math.sqrt(angka);
+      }
+    
+      /**
+       * Menghitung faktorial dari sebuah angka
+       */
+      faktorial(angka: number): number {
+        if (angka === 0) {
+          return 1;
+        }
+        return angka * this.faktorial(angka - 1);
+      }
 }
 
 // Class untuk operasi fisika
