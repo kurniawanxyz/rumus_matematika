@@ -102,3 +102,8 @@ export const acos = (nilai: number) => {
 export const atan = (nilai: number) => {
     return Math.atan(nilai) * (180 / Math.PI);
 }
+
+export const rataRataArray = (arr: number[]): number => {
+    const jumlah = arr.reduce((acc, cur) => acc + cur, 0);
+    return jumlah / arr.length;
+}
