@@ -1,6 +1,6 @@
 # rumus_matematika
 
-![versi](https://img.shields.io/badge/versi-1.1.8-blue.svg?cacheSeconds=2592000)
+![versi](https://img.shields.io/badge/versi-1.1.9-blue.svg?cacheSeconds=2592000)
 ![npm](https://img.shields.io/npm/dt/rumus_matematika.svg)
 ![Lisensi: ISC](https://img.shields.io/badge/Lisensi-ISC-yellow.svg)
 
