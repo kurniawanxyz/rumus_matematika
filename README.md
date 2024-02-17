@@ -1,8 +1,8 @@
 # rumus_matematika
 
-![version](https://img.shields.io/badge/version-1.0.7-blue.svg?cacheSeconds=2592000)
+![versi](https://img.shields.io/badge/versi-1.1.8-blue.svg?cacheSeconds=2592000)
 ![npm](https://img.shields.io/npm/dt/rumus_matematika.svg)
-![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)
+![Lisensi: ISC](https://img.shields.io/badge/Lisensi-ISC-yellow.svg)
 
 > Kumpulan fungsi untuk perhitungan matematika
 
@@ -15,8 +15,9 @@ npm install rumus_matematika
 
 ## Penggunaan
 ```javascript
-import {tambah} from "rumus_matematika"
-const data = tambah(1,2,3,4,5,6)
+import { MatematikaDasar } from "rumus_matematika"
+const matematika = new MatematikaDasar();
+const data = matematika.tambah(1,2,3,4,5,6)
 ```
 
 
@@ -31,6 +32,10 @@ Berikut adalah beberapa fungsi yang tersedia:
 - `bagi(a, b)` - Membagi dua bilangan.
 
 Untuk daftar lengkap fungsi dan dokumentasi, silakan kunjungi [Dokumentasi API](#).
+
+## Contoh Penggunaan
+
+Untuk melihat contoh penggunaan, silakan lihat di [example/index.js](example/index.js).
 
 ## Lisensi
 

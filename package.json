@@ -1,11 +1,13 @@
 {
   "name": "rumus_matematika",
-  "version": "1.0.7",
+  "version": "1.1.8",
+  "type": "module",
   "description": "Kumpulan fungsi untuk perhitungan matematika",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "start:dev": "nodemon lib/index",
+    "run:example": "node example/index.js",
     "build": "tsc"
   },
   "keywords": ["matematika", "rumus", "perhitungan"],
