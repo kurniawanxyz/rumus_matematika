@@ -1,7 +1,6 @@
 {
   "name": "rumus_matematika",
-  "version": "1.1.9",
-  "type": "module",
+  "version": "1.1.11",
   "description": "Kumpulan fungsi untuk perhitungan matematika",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
