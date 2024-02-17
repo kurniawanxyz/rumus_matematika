@@ -1,14 +1,23 @@
 {
   "name": "rumus_matematika",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.ts",
+  "version": "1.0.1",
+  "description": "Kumpulan fungsi untuk perhitungan matematika",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "start:dev": "nodemon src/index"
+    "start:dev": "nodemon lib/index",
+    "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["matematika", "rumus", "perhitungan"],
+  "author": "Adi Kurniawan",
   "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "url_repository_anda"
+  },
   "devDependencies": {
     "nodemon": "^3.0.3",
     "ts-node": "^10.9.2",
