@@ -10,7 +10,7 @@ Koleksi lengkap fungsi matematika yang dirancang untuk memudahkan pengembangan p
 
 ## Instalasi
 ```sh
-npm install rumus_matematika
+npm install --save-dev rumus_matematika
 ```
 
 ## Penggunaan
